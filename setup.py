@@ -1,6 +1,16 @@
 from setuptools import find_packages,setup
 from typing import List
 
+'''
+from setuptools import find_packages, setup: This line imports two functions, find_packages and setup, from the setuptools library. These functions are used for defining and configuring the project's package and distribution details.
+
+from typing import List: This line imports the List type hint from the typing module. The List hint is used to specify that a variable or parameter should be a list containing elements of a specific type.
+
+find_packages(): The find_packages function is a utility provided by setuptools that automatically discovers and lists all the packages (directories containing Python code) in the project. It saves the developers from manually listing each package in the project.
+
+setup(): The setup function is the main entry point for configuring the project's package distribution. It takes various arguments and keyword arguments to define the project's metadata and behavior.
+'''
+
 
 HYPEN_E_DOT='-e .'
 def get_requirements(file_path:str)->List[str]:
