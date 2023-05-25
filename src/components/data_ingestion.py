@@ -96,6 +96,8 @@ if __name__=="__main__":
     modeltrainer=ModelTrainer()
     print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
 
+   
+
 '''
 if __name__=="__main__": checks if the script is being run directly as the main program.
 
